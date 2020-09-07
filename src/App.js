@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, Fragment } from 'react';
 import SearchBar from './components/layout/SearchBar'
 import Logs from './components/logs/Logs'
 import AddBtn from './components/layout/AddBtn'
@@ -20,7 +20,7 @@ const App = () => {
   })
   return (
     <Provider store={store}>
-      <>
+      <Fragment>
         <SearchBar />
         <div className='container'>
           <Logs />
@@ -30,7 +30,7 @@ const App = () => {
           <AddTechModal />
           <TechListModal />
         </div>
-      </>
+      </Fragment>
     </Provider>
   );
 }
