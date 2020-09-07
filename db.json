@@ -1,11 +1,11 @@
 {
   "logs": [
     {
-      "message": "Cooler fan on PC #12 is dying",
-      "attention": true,
+      "id": 1,
+      "message": "Fixed cooler fan on PC #12",
+      "attention": false,
       "tech": "Sara Wilson",
-      "date": "2020-09-07T04:38:02.792Z",
-      "id": 1
+      "date": "2020-09-07T05:43:28.580Z"
     },
     {
       "message": "Changed network card on notebook #02",
@@ -20,6 +20,13 @@
       "tech": "Sam Smith",
       "date": "2020-09-07T04:45:13.070Z",
       "id": 4
+    },
+    {
+      "id": 5,
+      "message": "Update Windows on machines #06 to #11",
+      "attention": true,
+      "tech": "Sara Wilson",
+      "date": "2020-09-07T05:42:46.052Z"
     }
   ],
   "techs": [
