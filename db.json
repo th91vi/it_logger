@@ -1,32 +1,25 @@
 {
     "logs": [
         {
-            "message": "Changed network card in server 007",
-            "attention": false,
-            "tech": "Sam Smith",
-            "date": "2019-05-31T15:46:10.179Z",
+            "message": "Cooler fan on PC #12 is dying",
+            "attention": true,
+            "tech": "Sara Wilson",
+            "date": "2020-09-07T04:38:02.792Z",
             "id": 1
         },
         {
-            "id": 2,
-            "message": "Fixed hard drive on workstation 002",
+            "message": "Changed network card on notebook #02",
             "attention": false,
             "tech": "John Doe",
-            "date": "2019-05-31T16:18:04.245Z"
+            "date": "2020-09-07T04:38:23.876Z",
+            "id": 2
         },
         {
-            "message": "1122 wireless down",
+            "message": "Keyboard on PC #16 needs more RGB",
             "attention": true,
-            "tech": "Sara Wilson",
-            "date": "2019-05-31T15:46:48.690Z",
-            "id": 3
-        },
-        {
-            "id": 4,
-            "message": "Workstation 026 is up and running",
-            "attention": false,
-            "tech": "Sara Wilson",
-            "date": "2019-05-31T19:57:35.544Z"
+            "tech": "Sam Smith",
+            "date": "2020-09-07T04:45:13.070Z",
+            "id": 4
         }
     ],
     "techs": [
